@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(100% 142.63% at 0% 0%, #E51245 0%, #9D4BC3 55.81%, #00ABE3 100%), #FFFFFF;
+            height: 100vh;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        label {
+            display: block;
+            font-size: 30px;
+            line-height: 36px;
+            margin: 0;
+        }
+
+        input {
+            width: 300px;
+            height: 50px;
+            font-size: 30px;
+            margin: 0;
+            padding: 0 10px;
+            border: none;
+        }
+
+        input[type='number'] {
+            -moz-appearance: textfield;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="uzs">UZS</label>
+    <input id="uzs" type="number">
+    <label for="usd">USD</label>
+    <input id="usd" type="number">
+    <script src="js/script.js"></script>
+</body>
+
+</html>
