@@ -48,3 +48,10 @@ inputUsd.addEventListener("input", () => {
   // response
   // readyState
 });
+
+const changeBtn = document.querySelector('.change'),
+      inputUzsParent = document.querySelector('.input-uzs');
+
+changeBtn.addEventListener('click', () => {
+  inputUzsParent.classList.toggle('input-uzs-order');
+})
