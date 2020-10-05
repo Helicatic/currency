@@ -51,15 +51,6 @@
         .change svg {
           height: 50px;
         }
-        /* .inputs {
-          display: flex;
-          -webkit-flex-direction: column;
-          -ms-flex-direction: column;
-          flex-direction: column;
-          justify-content: center;
-          -ms-align-items: center;
-          align-items: center;
-        } */
         .inputs {
           display: -webkit-flex;
           display: -ms-flex;
@@ -69,6 +60,21 @@
         }
         .input-uzs-order {
           order: 2;
+        }
+
+        @media (max-width: 440px) {
+          body {
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+          }
+          input {
+            width: 90%;
+          }
+          .change {
+            margin-right: 0;
+            margin-bottom: 20px;  
+          }
         }
     </style>
 </head>
